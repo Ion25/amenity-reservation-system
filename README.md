@@ -1,13 +1,11 @@
-# amenity-reservation-system
+# Amenity Reservation System
 
-An amenity reservation system where users/residents can log in and reserve a time to use a service such as fitness center, pool, or sauna in a hypothetical apartment complex.
-Each amenity will have a certain capacity (number of people that can use the service at the same time) so that people can make use of the amenities safely
-during the Covid-19 pandemic. Whole
-development process and technical decisions has been explained in this tutorial:
+Un sistema de reserva de servicios donde los usuarios/residentes pueden iniciar sesión y reservar un tiempo para utilizar un servicio como un gimnasio, 
+una piscina o una sauna en un hipotético complejo de apartamentos. Cada amenidad tendrá una capacidad determinada (número de personas que pueden utilizar 
+el servicio al mismo tiempo) para que las personas puedan hacer uso de las amenidades de manera segura durante la pandemia de Covid-19.
 
-*https://www.freecodecamp.org/news/spring-boot-tutorial-build-fast-modern-java-app/*
 
-## Technologies
+## Tecnologías
 * Spring Boot
 * Thymeleaf
 * Hibernate
@@ -19,11 +17,16 @@ development process and technical decisions has been explained in this tutorial:
 * H2 In-Memory Database
 * Bootstrap
 
-## Use Cases / User Stories
+## Casos de uso / Historias de usuarios
 
-* Users should be able to log in.
-* We will assume that the accounts of residents are pre-created and there will be no sign-up feature.
-* Users should be able to view their reservations.
-* Users should be able to create new reservations by selecting the amenity type, date, and time.
-* Only logged-in users should be able to see the reservations page and create reservations.
-* We should check the capacity and only create new reservations if the current number of reservations does not exceed the capacity.
+* Los usuarios deberían poder iniciar sesión.
+* Asumiremos que las cuentas de los residentes están creadas previamente y no habrá ninguna función de registro.
+* Los usuarios deberían poder ver sus reservas.
+* Los usuarios deberían poder crear nuevas reservas seleccionando el tipo de servicio, la fecha y la hora.
+* Solo los usuarios que hayan iniciado sesión deberían poder ver la página de reservas y crear reservas.
+* Debemos verificar la capacidad y solo crear nuevas reservas si el número actual de reservas no excede la capacidad.
+
+
+
+
+
